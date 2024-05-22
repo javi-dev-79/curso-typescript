@@ -4,13 +4,13 @@ interface Dev {
     trabajando?: boolean | null
 }
 
-let dev1: Dev = {
+const dev1: Dev = {
     nombre: 'Javier Cordero',
     tecnologias: ['React', 'Angular', 'Django'],
     trabajando: false,
 }
 
-let dev2 = {
+const dev2 = {
     nombre: 'Federico',
     tecnologias: ['Html', 'Cobol'],
     trabajando: null,
@@ -18,7 +18,7 @@ let dev2 = {
     recibido: false,
 }
 
-let dev3: Dev = {
+const dev3: Dev = {
     nombre: 'Antonio',
     tecnologias: ['Angular', 'Java'],
 }
